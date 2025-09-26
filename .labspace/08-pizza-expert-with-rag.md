@@ -62,7 +62,7 @@ sequenceDiagram
 ## Demo
 
 ```bash 
-cd ~/project/08-pizza-expert-with-rag
+cd 08-pizza-expert-with-rag
 ```
 
 ```bash 

@@ -52,7 +52,7 @@ Embedding models are neural networks that convert text, images, or other data in
 Try these demos:
 
 ```bash 
-cd ~/project/07-let-s-talk-about-rag
+cd 07-let-s-talk-about-rag
 ```
 
 ### 01.main.js

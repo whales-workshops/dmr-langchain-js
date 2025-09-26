@@ -14,7 +14,7 @@ Small models generally don't have very good tool support, but there are exceptio
 ## Demo
 
 ```bash 
-cd ~/project/10-function-calling
+cd 10-function-calling
 ```
 
 ## Run it with Docker Agentic Compose

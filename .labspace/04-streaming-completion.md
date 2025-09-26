@@ -4,7 +4,7 @@
 ## Setup
 
 ```bash
-cd ~/project/04-streaming-completion
+cd 04-streaming-completion
 ```
 
 ```bash
@@ -84,7 +84,7 @@ let messages = [
 ## Demo
 
 ```bash
-cd ~/project/04-streaming-completion
+cd 04-streaming-completion
 ```
 
 ```bash

@@ -3,7 +3,7 @@
 ## Setup (if needed)
 
 ```bash
-cd ~/project/03-simple-completion
+cd 03-simple-completion
 ```
 
 ```bash
@@ -13,7 +13,7 @@ docker model pull ai/qwen2.5:0.5B-F16
 ## Demo
 
 ```bash
-cd ~/project/03-simple-completion
+cd 03-simple-completion
 ```
 
 ```bash

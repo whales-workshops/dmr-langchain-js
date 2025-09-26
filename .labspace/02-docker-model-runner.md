@@ -7,7 +7,7 @@
 ## 🚀 DMR in a terminal
 
 ```bash
-cd ~/project/02-docker-model-runner
+cd 02-docker-model-runner
 ```
 
 Try the following commands in a terminal:

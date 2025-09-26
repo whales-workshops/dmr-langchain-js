@@ -3,7 +3,7 @@
 ## Setup
 
 ```bash 
-cd ~/project/06-add-more-context
+cd 06-add-more-context
 ```
 
 ```bash 
@@ -26,7 +26,7 @@ let knowledgeBase = fs.readFileSync(process.env.KNOWLEDGE_BASE_PATH || "./data/h
 ## Demo
 
 ```bash 
-cd ~/project/06-add-more-context
+cd 06-add-more-context
 ```
 
 ```bash 

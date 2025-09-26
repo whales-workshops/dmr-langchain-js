@@ -89,7 +89,7 @@ sequenceDiagram
 ## Start the MCP server
 
 ```bash 
-cd ~/project/11-mcp-hello-world-server
+cd 11-mcp-hello-world-server
 ```
 
 ```bash 

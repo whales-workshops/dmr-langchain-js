@@ -49,7 +49,7 @@ sequenceDiagram
 ## Demo: try it yourself
 
 ```bash 
-cd ~/project/12-connect-mcp-server-with-js
+cd 12-connect-mcp-server-with-js
 ```
 
 ```bash 

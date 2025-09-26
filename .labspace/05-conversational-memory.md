@@ -3,7 +3,7 @@
 ## Setup
 
 ```bash 
-cd ~/project/05-conversational-memory
+cd 05-conversational-memory
 ```
 
 ```bash 
@@ -77,7 +77,7 @@ case "/memory":
 ## Demo
 
 ```bash 
-cd ~/project/05-conversational-memory
+cd 05-conversational-memory
 ```
 
 ```bash 

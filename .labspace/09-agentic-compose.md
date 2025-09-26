@@ -11,7 +11,7 @@
 ## Demo
 
 ```bash 
-cd ~/project/09-agentic-compose
+cd 09-agentic-compose
 ```
 
 ## Run it with Docker Agentic Compose

@@ -40,7 +40,7 @@ This demo showcases the **Docker MCP Gateway** integrated with a Hawaiian pizza 
 ## Demo
 
 ```bash 
-cd ~/project/09-agentic-compose
+cd 09-agentic-compose
 ```
 
 ## Run it with Docker Agentic Compose
