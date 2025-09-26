@@ -1,7 +1,7 @@
 name: Package and deploy Labspace
 
 env:
-  DOCKERHUB_REPO: your-dockerhub-username/labspace-name
+  DOCKERHUB_REPO: philippecharriere494/labspace-dmr-langchain-js
 
 on:
   push:
@@ -30,5 +30,4 @@ jobs:
 
       - name: Publish Compose file
         run: |
-          export DOCKERHUB_REPO="labspace-dmr-langchain-js"
           docker compose -f oci://dockersamples/labspace -f .labspace/compose.override.yaml publish ${DOCKERHUB_REPO} --with-env -y
