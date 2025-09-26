@@ -19,10 +19,10 @@ Copy Paste: `Cmd+Shift+V`
 > - Accept the extensions installation
 > - Open a terminal in `~/project`
 
-```bash 
+```bash terminal-id=terminal-01
 cd ~/project
 ```
 
-```bash 
+```bash terminal-id=terminal-01
 npm install
 ```

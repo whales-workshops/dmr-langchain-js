@@ -48,11 +48,11 @@ sequenceDiagram
 
 ## Demo: try it yourself
 
-```bash 
+```bash terminal-id=terminal-12-01
 cd 12-connect-mcp-server-with-js
 ```
 
-```bash 
+```bash terminal-id=terminal-12-02
 node index.js
 ```
 

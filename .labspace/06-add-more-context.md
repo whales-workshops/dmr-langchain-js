@@ -2,11 +2,11 @@
 
 ## Setup
 
-```bash 
+```bash terminal-id=terminal-06
 cd 06-add-more-context
 ```
 
-```bash 
+```bash terminal-id=terminal-06
 docker model pull ai/qwen2.5:0.5B-F16
 ```
 
@@ -25,11 +25,11 @@ let knowledgeBase = fs.readFileSync(process.env.KNOWLEDGE_BASE_PATH || "./data/h
 
 ## Demo
 
-```bash 
+```bash terminal-id=terminal-06
 cd 06-add-more-context
 ```
 
-```bash 
+```bash terminal-id=terminal-06
 node index.js
 ```
 

@@ -61,11 +61,11 @@ sequenceDiagram
 
 ## Demo
 
-```bash 
+```bash terminal-id=terminal-08
 cd 08-pizza-expert-with-rag
 ```
 
-```bash 
+```bash terminal-id=terminal-08
 node index.js
 ```
 

@@ -1,7 +1,9 @@
 services:
+  interface:
+    image: dockersamples/labspace-interface:dev
   configurator:
     environment:
-      PROJECT_CLONE_URL: https://github.com/whales-workshops/dmr-langchain-js
+      PROJECT_CLONE_URL: https://github.com/whales-workshops/labspace-dmr-langchain-js
 
   # workspace:
   #   # Override the default image if desired

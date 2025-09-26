@@ -13,27 +13,31 @@ Small models generally don't have very good tool support, but there are exceptio
 
 ## Demo
 
-```bash 
+### Run it with Docker Agentic Compose
+> 👋 Note: we use `hf.co/menlo/jan-nano-gguf:q4_k_m`
+
+```bash terminal-id=terminal-10
 cd 10-function-calling
 ```
 
-## Run it with Docker Agentic Compose
-> 👋 Note: we use `hf.co/menlo/jan-nano-gguf:q4_k_m`
-
 Start:
-```bash 
+```bash terminal-id=terminal-10
 docker compose up --build --no-log-prefix
 ```
 
 Connect to the bot:
-```bash 
-docker exec -it $(docker compose ps -q pizza-tools) /bin/bash
-# or
-docker exec -it 10-function-calling-pizza-tools-1 /bin/bash
+```bash terminal-id=terminal-10-bis
+cd 10-function-calling
 ```
 
+```bash terminal-id=terminal-10-bis
+docker exec -it $(docker compose ps -q pizza-tools) /bin/bash
+```
+
+> - or: `docker exec -it 10-function-calling-pizza-tools-1 /bin/bash`
+
 Then type:
-```bash 
+```bash terminal-id=terminal-10-bis
 node index.js
 ```
 

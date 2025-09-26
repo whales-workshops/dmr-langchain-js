@@ -6,17 +6,17 @@
 
 ## 🚀 DMR in a terminal
 
-```bash
+```bash terminal-id=terminal-02
 cd 02-docker-model-runner
 ```
 
 Try the following commands in a terminal:
 
-```bash
+```bash terminal-id=terminal-02
 docker model pull ai/qwen2.5:0.5B-F16
 ```
 
-```bash
+```bash terminal-id=terminal-02
 docker model run ai/qwen2.5:0.5B-F16
 ```
 
@@ -42,7 +42,7 @@ docker model run ai/qwen2.5:0.5B-F16
 - `POST /engines/v1/embeddings` - Create embeddings
 
 **Example Usage:**
-```bash
+```bash terminal-id=terminal-02
 curl http://model-runner.docker.internal/engines/v1/chat/completions \
     -H "Content-Type: application/json" \
     -d '{

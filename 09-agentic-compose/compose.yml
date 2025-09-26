@@ -1,6 +1,8 @@
 # docker compose up --build --no-log-prefix
 services:
   pizza-expert:
+    tty: true
+    stdin_open: true  
     build:
       context: .
       dockerfile: Dockerfile
@@ -16,9 +18,7 @@ services:
       - ./data:/app/data
       - ./settings:/app/settings
 
-    stdin_open: true   # docker run -i
-    tty: true          # docker run -t
-    restart: unless-stopped
+    #restart: unless-stopped
     models:
       chat-model:
         endpoint_var: MODEL_RUNNER_BASE_URL

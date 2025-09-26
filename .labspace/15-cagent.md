@@ -2,27 +2,27 @@
 
 ## Start the 🐳 Compose Stack
 
-```bash 
+```bash terminal-id=terminal-15-01
 cd 15-cagent
 ```
 
-```bash
+```bash terminal-id=terminal-15-02
 docker compose up
 ```
 
 ## Connect to the agent
 > open a new terminal
 
-```bash 
+```bash terminal-id=terminal-15-03
 cd 15-cagent
 ```
 
-```bash
+```bash terminal-id=terminal-15-04
 docker compose attach my-agent
 ```
 
 ## Quit
 
-```bash no-run-button
+```bash terminal-id=terminal-15-05
 docker compose down
 ```

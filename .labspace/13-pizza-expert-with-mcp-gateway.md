@@ -39,27 +39,27 @@ This demo showcases the **Docker MCP Gateway** integrated with a Hawaiian pizza 
 
 ## Demo
 
-```bash 
+```bash terminal-id=terminal-13-01
 cd 09-agentic-compose
 ```
 
 ## Run it with Docker Agentic Compose
 
 Start:
-```bash 
+```bash terminal-id=terminal-13-02
 docker compose up --build --no-log-prefix
 ```
 
 ### Docker MCP Gateway CLI
 
-```bash 
+```bash terminal-id=terminal-13-03
 image: docker/mcp-gateway:latest
 ```
 
 
 
 Connect to the bot:
-```bash 
+```bash terminal-id=terminal-13-04
 docker exec -it $(docker compose ps -q pizza-expert-with-mcp) /bin/bash
 # or
 docker exec -it 13-pizza-expert-with-mcp-gateway-pizza-expert-with-mcp-1 /bin/bash

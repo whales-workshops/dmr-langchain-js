@@ -2,21 +2,21 @@
 
 ## Setup (if needed)
 
-```bash
+```bash terminal-id=terminal-03
 cd 03-simple-completion
 ```
 
-```bash
+```bash terminal-id=terminal-03
 docker model pull ai/qwen2.5:0.5B-F16
 ```
 
 ## Demo
 
-```bash
+```bash terminal-id=terminal-03
 cd 03-simple-completion
 ```
 
-```bash
+```bash terminal-id=terminal-03
 node index.js
 ```
 

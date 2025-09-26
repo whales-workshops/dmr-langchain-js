@@ -10,30 +10,35 @@
 
 ## Demo
 
-```bash 
+### Run it with Docker Agentic Compose
+
+```bash terminal-id=terminal-09
 cd 09-agentic-compose
 ```
 
-## Run it with Docker Agentic Compose
-
 Start:
-```bash 
+```bash terminal-id=terminal-09
 docker compose up --build --no-log-prefix
 ```
 
 Connect to the bot:
-```bash 
-docker exec -it $(docker compose ps -q pizza-expert) /bin/bash
-# or
-docker exec -it 09-agentic-compose-pizza-expert-1 /bin/bash
+
+```bash terminal-id=terminal-09-bis
+cd 09-agentic-compose
 ```
 
+```bash terminal-id=terminal-09-bis
+docker exec -it $(docker compose ps -q pizza-expert) /bin/bash
+```
+
+> - or: `docker exec -it 09-agentic-compose-pizza-expert-1 /bin/bash`
+
 Then type:
-```bash 
+```bash terminal-id=terminal-09-bis
 node index.js
 ```
 
-## Try other models
+### Try other models
 > make the changes in `compose.yml`
 
 - `ai/qwen2.5:1.5B-F16`

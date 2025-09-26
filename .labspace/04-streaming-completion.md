@@ -3,11 +3,11 @@
 
 ## Setup
 
-```bash
+```bash terminal-id=terminal-04
 cd 04-streaming-completion
 ```
 
-```bash
+```bash terminal-id=terminal-04
 docker model pull ai/qwen2.5:0.5B-F16
 ```
 
@@ -83,11 +83,11 @@ let messages = [
 
 ## Demo
 
-```bash
+```bash terminal-id=terminal-04
 cd 04-streaming-completion
 ```
 
-```bash
+```bash terminal-id=terminal-04
 node index.js
 ```
 

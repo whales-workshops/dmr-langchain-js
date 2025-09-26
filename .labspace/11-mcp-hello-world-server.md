@@ -88,31 +88,34 @@ sequenceDiagram
 
 ## Start the MCP server
 
-```bash 
+```bash terminal-id=terminal-11
 cd 11-mcp-hello-world-server
 ```
 
-```bash 
+```bash terminal-id=terminal-11
 docker compose up
 ```
 
 ### Test the MCP server with `curl`
 
 > In another terminal:
+```bash terminal-id=terminal-11-bis
+cd 11-mcp-hello-world-server
+```
 
 Get the list of tools:
-```bash 
+```bash terminal-id=terminal-11-bis
 cd tests
 ./tools.list.sh
 ```
 
 Call the **hello world** tool:
-```bash 
+```bash terminal-id=terminal-11-bis
 ./tool.call.hello-world.sh
 ```
 
 Call the **hello** tool:
-```bash 
+```bash terminal-id=terminal-11-bis
 ./tool.call.hello.sh
 ```
 
@@ -121,21 +124,16 @@ Call the **hello** tool:
 Add a `greeting` tool that takes two parameters: `firstname` and `lastname`, and returns a greeting message.
 
 Rebuild and restart the server:
-```bash 
+```bash terminal-id=terminal-11
 docker compose up --build
 ```
 
 Test the `greeting` tool:
-```bash 
+```bash terminal-id=terminal-11-bis
 cd tests
 ./tool.call.greeting.sh
 ```
 
-
 ## Docker-in-Docker Note
 
 If you are running this project from within a Docker container (docker-in-docker), you will need to use `host.docker.internal` instead of `localhost` in the test scripts to access the MCP server. This is necessary because `localhost` inside a container refers to the container itself, not the Docker host.
-
-<!--
-Si vous exécutez ce projet depuis un conteneur Docker (docker-in-docker), vous devrez utiliser `host.docker.internal` au lieu de `localhost` dans les scripts de test pour accéder au serveur MCP. Cela est nécessaire car `localhost` dans un conteneur fait référence au conteneur lui-même, pas à l'hôte Docker.
--->

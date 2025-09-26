@@ -2,11 +2,11 @@
 
 ## Setup
 
-```bash 
+```bash terminal-id=terminal-05
 cd 05-conversational-memory
 ```
 
-```bash 
+```bash terminal-id=terminal-05
 docker model pull ai/qwen2.5:0.5B-F16
 ```
 
@@ -76,11 +76,11 @@ case "/memory":
 
 ## Demo
 
-```bash 
+```bash terminal-id=terminal-05
 cd 05-conversational-memory
 ```
 
-```bash 
+```bash terminal-id=terminal-05
 node index.js
 ```
 

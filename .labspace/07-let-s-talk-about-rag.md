@@ -51,27 +51,27 @@ Embedding models are neural networks that convert text, images, or other data in
 
 Try these demos:
 
-```bash 
+```bash terminal-id=terminal-07
 cd 07-let-s-talk-about-rag
 ```
 
 ### 01.main.js
 Demonstrates basic similarity search by converting text chunks and a user question into embeddings, then calculating cosine similarity between them to find which chunks are most relevant to the question.
 
-```bash 
+```bash terminal-id=terminal-07
 node 01.main.js
 ```
 
 ### 02.main.js
 Shows how to build a simple vector store by creating embeddings for text chunks, storing them, and then searching for the most similar chunks to a user query using similarity thresholds.
 
-```bash 
+```bash terminal-id=terminal-07
 node 02.main.js
 ```
 
 ### 03.main.js
 Implements a complete RAG (Retrieval Augmented Generation) system that combines similarity search with a chat model - it finds relevant documents based on the user question and uses them as context to generate a response.
 
-```bash 
+```bash terminal-id=terminal-07
 node 03.main.js
 ```
