@@ -3,7 +3,7 @@
 #BASE_URL=${MODEL_RUNNER_BASE_URL:-http://host.docker.internal:12434/engines/llama.cpp/v1}
 BASE_URL=${MODEL_RUNNER_BASE_URL:-http://model-runner.docker.internal/engines/llama.cpp/v1}
 
-MODEL=${MODEL_QWEN2_5_LARGE:-"ai/qwen2.5:1.5B-F16"}
+MODEL=${MODEL_QWEN2_5_LARGE:-"ai/qwen2.5:0.5B-F16"}
 
 read -r -d '' SYSTEM_INSTRUCTION <<- EOM
 You are an expert of Pizza. 

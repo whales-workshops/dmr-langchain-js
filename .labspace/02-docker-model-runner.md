@@ -13,11 +13,11 @@ cd 02-docker-model-runner
 Try the following commands in a terminal:
 
 ```bash
-docker model pull ai/qwen2.5:1.5B-F16
+docker model pull ai/qwen2.5:0.5B-F16
 ```
 
 ```bash
-docker model run ai/qwen2.5:1.5B-F16
+docker model run ai/qwen2.5:0.5B-F16
 ```
 
 ## 🚀 Query DMR with `curl`
@@ -46,7 +46,7 @@ docker model run ai/qwen2.5:1.5B-F16
 curl http://model-runner.docker.internal/engines/v1/chat/completions \
     -H "Content-Type: application/json" \
     -d '{
-        "model": "ai/qwen2.5:1.5B-F16",
+        "model": "ai/qwen2.5:0.5B-F16",
         "messages": [{"role": "user", "content": "Hello!"}]
     }'
 ```
