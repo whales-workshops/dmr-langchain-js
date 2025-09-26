@@ -1,11 +1,34 @@
-title: Labspace starter
-description: |
-  A basic template for creating a Labspace, including all of the boilerplate needed to write and publish a Labspace.
+title: Docker Model Runner & LangChainJS
+description: Play with (very) Small Language Models.
 
 sections:
   - title: Introduction
     contentPath: .labspace/01-introduction.md
-  - title: Main Content 1
-    contentPath: .labspace/02-main-content.md
-  - title: Conclusion
-    contentPath: .labspace/03-conclusion.md
+  - title: Docker Model Runner
+    contentPath: .labspace/02-docker-model-runner.md
+  - title: Simple Completion
+    contentPath: .labspace/03-simple-completion.md
+  - title: System Instructions & Streaming Completion
+    contentPath: .labspace/04-streaming-completion.md
+  - title: Conversational Memory
+    contentPath: .labspace/05-conversational-memory.md
+  - title: More Context and Data
+    contentPath: .labspace/06-add-more-context.md
+  - title: Let's talk about RAG
+    contentPath: .labspace/07-let-s-talk-about-rag.md    
+  - title: Pizza Expert with RAG
+    contentPath: .labspace/08-pizza-expert-with-rag.md
+  - title: Pizza Expert with Agentic Compose
+    contentPath: .labspace/09-agentic-compose.md
+  - title: Pizza Expert with Function Calling
+    contentPath: .labspace/10-function-calling.md
+  - title: Model Context Protocol
+    contentPath: .labspace/11-mcp-hello-world-server.md
+  - title: MCP Client with Node.js
+    contentPath: .labspace/12-connect-mcp-server-with-js.md
+  - title: Docker MCP Gateway with the Hawaiian pizza expert
+    contentPath: .labspace/13-pizza-expert-with-mcp-gateway.md
+  - title: Key takeaways
+    contentPath: .labspace/14-key-takeaways.md
+  - title: cagent preview
+    contentPath: .labspace/15-cagent.md    

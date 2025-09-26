@@ -30,4 +30,5 @@ jobs:
 
       - name: Publish Compose file
         run: |
+          export DOCKERHUB_REPO="labspace-dmr-langchain-js"
           docker compose -f oci://dockersamples/labspace -f .labspace/compose.override.yaml publish ${DOCKERHUB_REPO} --with-env -y

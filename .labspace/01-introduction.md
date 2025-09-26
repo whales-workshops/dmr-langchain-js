@@ -1,21 +1,28 @@
-# Introduction
+# Docker Model Runner with LangchainJS
 
-👋 Welcome to the **Labspace starter** lab! During this lab, you will learn to do the following:
+## 🍍 BOB: THE HAWAIIAN PIZZA GURU 🍕
+Ladies and gentlemen, pineapple enthusiasts and skeptics alike, allow me to introduce the one, the only, the controversial culinary maverick himself — **BOB** THE HAWAIIAN PIZZA EXPERT!
 
-- Learning Objective 1
-- Learning Objective 2
-- Learning Objective 3
-- Learning Objective 4
+## 👋 Disclaimer
 
+**Don't forget that sometimes 🐣 small models do whatever they want 😝**
 
-## 🙋 What is a Labspace again?
+## 🎁 Tips and tricks
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia nisi sit amet auctor accumsan. Maecenas suscipit, libero quis ullamcorper pulvinar, dolor nisl vehicula orci, vel egestas arcu nibh eget enim. 
+Copy Paste: `Cmd+Shift+V`
 
-Suspendisse potenti. Pellentesque eleifend eget ante eu egestas. 
-
-Nunc sit amet dapibus erat. Aliquam diam arcu, fringilla hendrerit metus sed, pellentesque fringilla lacus. 
-
-Nulla ornare nulla risus. Curabitur ut ipsum euismod, accumsan lorem eu, pretium lorem. Fusce imperdiet fermentum hendrerit.
+## 📔 Agenda
+> 🚧 this is a work in progress
 
 
+## 🛠️ Setup
+> - Accept the extensions installation
+> - Open a terminal in `~/project`
+
+```bash 
+cd ~/project
+```
+
+```bash 
+npm install
+```

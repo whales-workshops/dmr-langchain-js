@@ -1,0 +1,36 @@
+# docker compose up --build --no-log-prefix
+services:
+  pizza-tools:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      TERM: xterm-256color
+
+      HISTORY_MESSAGES: 3
+
+      SYSTEM_INSTRUCTIONS_PATH: /app/settings/system-instructions.md
+      CONTENT_PATH: /app/data    
+
+    volumes:
+      - ./data:/app/data
+      - ./settings:/app/settings
+
+    stdin_open: true   # docker run -i
+    tty: true          # docker run -t
+    restart: unless-stopped
+    models:
+      chat-model:
+        endpoint_var: MODEL_RUNNER_BASE_URL
+        model_var: MODEL_RUNNER_LLM_CHAT
+      embedding-model:
+        endpoint_var: MODEL_RUNNER_BASE_URL
+        model_var: MODEL_RUNNER_EMBEDDING
+
+models:
+  chat-model:
+    #model: ai/qwen2.5:1.5B-F16  
+    model: hf.co/menlo/jan-nano-gguf:q4_k_m 
+  embedding-model:
+    model: ai/mxbai-embed-large:latest
+    #model: ai/granite-embedding-multilingual:latest
